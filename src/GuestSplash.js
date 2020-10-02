@@ -36,7 +36,7 @@ function HomePage(){
   <div class="card-body">
     <h5 class="card-title">Sisig</h5>
     <p class="card-text">Sisigfor only $14.</p>
-    <button class="addtocard btn btn-success" itemId="1">Add to Cart</button>
+    <button class="addtocard btn btn-success" itemId="2">Add to Cart</button>
   </div>
         </div>
             </div>
@@ -46,7 +46,7 @@ function HomePage(){
   <div class="card-body">
     <h5 class="card-title">Chicken Feet</h5>
     <p class="card-text">Chicken Feet for only $9.</p>
-    <button class="addtocard btn btn-success" itemId="1">Add to Cart</button>
+    <button class="addtocard btn btn-success" itemId="3">Add to Cart</button>
   </div>
         </div>
             </div>

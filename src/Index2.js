@@ -60,7 +60,7 @@ class Index extends React.Component {
 			if(!searchIfExists(System.cart,'item_id',currentElem.attr("itemId")).exists){
 				var itemData = searchIfExists(System.items,'item_id',currentElem.attr("itemId"));
 				System.cart[System.cart.length] = itemData.data;
-				this.setState({ state: this.state });
+				
 				updateCartCount();
 			}else{
 				alert("You have already selected this item.");
