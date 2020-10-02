@@ -1,13 +1,18 @@
-#root{background:#fff url('./classroom.jpg') no-repeat scroll center center;background-size:cover;height:100%;width:100%;}
+#root{background:#fff;height:100%;width:100%;}
 body,html{height:100%;min-height:100%;}
-div#root {
+div#root,wrapper {
     display: table;
+    width:100%;
 }
 
-div#whole {
+#root wrapper{
+    min-height:100%;
+}
+
+div.whole-default {
     display: table-cell;
     vertical-align: middle;
-    padding: 0 25px;
+    padding: 15px 25px ;
 }
 
 h1#logo_name {
@@ -35,3 +40,13 @@ div#intro_screen {
 }
 
 .btn{box-shadow: 0 4px 5px rgba(0,0,0,.4);}
+.card{margin-bottom:15px;}
+.card-img-top{    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;}
+
+#user_menu{padding-bottom:15px;border-bottom:2px dashed #c0c0c0;margin-bottom:20px;text-align:right;background:;}
+#user_menu .btn{margin-left:15px;}
+
+[aria-current]{display:none;}
+
+.actions{text-align:right;}
